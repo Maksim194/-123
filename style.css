@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/* Общие стили */
+
 body {
     min-height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
@@ -13,10 +13,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 55px; /* место под верхнюю линию */
+    padding-top: 55px; 
 }
 
-/* Верхняя линия */
+
 .top-bar {
     width: 100%;
     position: fixed;
@@ -39,14 +39,14 @@ body {
     color: #cccccc;
 }
 
-/* Контейнер */
+
 .container {
     text-align: center;
     max-width: 1200px;
     padding: 40px 20px;
 }
 
-/* Заголовки */
+
 h1 {
     font-size: 48px;
     color: #00ffcc;
@@ -60,7 +60,7 @@ h1 {
     margin-bottom: 40px;
 }
 
-/* Галерея */
+
 .gallery {
     display: flex;
     justify-content: center;
@@ -68,7 +68,7 @@ h1 {
     flex-wrap: wrap;
 }
 
-/* Карточки */
+
 .card {
     background: #111;
     border-radius: 15px;
@@ -97,3 +97,4 @@ h1 {
     font-size: 14px;
     color: #aaaaaa;
 }
+
