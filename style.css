@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Общие стили */
+body {
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background: radial-gradient(circle at top, #1b0033, #000);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 55px; /* место под верхнюю линию */
+}
+
+/* Верхняя линия */
+.top-bar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, #0a001a, #1b0033);
+    border-bottom: 1px solid rgba(0, 255, 200, 0.4);
+    z-index: 1000;
+}
+
+.top-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    font-size: 14px;
+    color: #cccccc;
+}
+
+/* Контейнер */
+.container {
+    text-align: center;
+    max-width: 1200px;
+    padding: 40px 20px;
+}
+
+/* Заголовки */
+h1 {
+    font-size: 48px;
+    color: #00ffcc;
+    text-shadow: 0 0 15px #00ffcc;
+    margin-bottom: 15px;
+}
+
+.subtitle {
+    font-size: 20px;
+    color: #cccccc;
+    margin-bottom: 40px;
+}
+
+/* Галерея */
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+/* Карточки */
+.card {
+    background: #111;
+    border-radius: 15px;
+    padding: 15px;
+    width: 300px;
+    box-shadow: 0 0 20px rgba(0, 255, 200, 0.3);
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 35px rgba(255, 0, 200, 0.6);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h3 {
+    margin: 15px 0 8px;
+    color: #ff4dff;
+}
+
+.card span {
+    font-size: 14px;
+    color: #aaaaaa;
+}
